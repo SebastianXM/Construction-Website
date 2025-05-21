@@ -7,7 +7,7 @@ export default function Home() {
       <header className="bg-blue-600 dark:bg-blue-800 text-white shadow-md">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="#" className="text-2xl font-bold">
-            ConstructCo
+            M&C Construction
           </a>
           <ul className="flex space-x-4">
             <li>
@@ -41,8 +41,7 @@ export default function Home() {
           id="home"
           className="relative h-[60vh] bg-cover bg-center flex items-center justify-center text-white"
           style={{
-            backgroundImage:
-              "url('https://via.placeholder.com/1920x1080?text=Main+Construction+Site')",
+            backgroundImage: "url('/con_1.jpg')",
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -94,7 +93,7 @@ export default function Home() {
               {/* Service 1 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="https://via.placeholder.com/400x300?text=Residential+Construction"
+                  src="/con_2.jpg"
                   alt="Residential Construction"
                   width={400}
                   height={300}
@@ -111,7 +110,7 @@ export default function Home() {
               {/* Service 2 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="https://via.placeholder.com/400x300?text=Commercial+Projects"
+                  src="/con_3.jpg"
                   alt="Commercial Projects"
                   width={400}
                   height={300}
@@ -128,7 +127,7 @@ export default function Home() {
               {/* Service 3 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="https://via.placeholder.com/400x300?text=Renovations+%26+Remodeling"
+                  src="/con_4.jpg"
                   alt="Renovations & Remodeling"
                   width={400}
                   height={300}
