@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
       {/* Header */}
-      <header className="bg-blue-600 dark:bg-blue-800 text-white shadow-md">
+      <header className="bg-black dark:bg-gray-900 text-white shadow-md">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="#" className="text-2xl font-bold">
-            M&C Construction
+            M&C General Construction
           </a>
           <ul className="flex space-x-4">
             <li>
@@ -41,7 +41,7 @@ export default function Home() {
           id="home"
           className="relative h-[60vh] bg-cover bg-center flex items-center justify-center text-white"
           style={{
-            backgroundImage: "url('/con_1.jpg')",
+            backgroundImage: "url('/brick.jpg')",
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -64,15 +64,16 @@ export default function Home() {
         {/* About Section */}
         <section id="about" className="py-16 bg-white dark:bg-gray-800">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold mb-8 text-blue-600 dark:text-blue-400">
+            <h2 className="text-3xl font-bold mb-8 text-black dark:text-gray-300">
               About Us
             </h2>
             <p className="text-lg mb-4 max-w-3xl mx-auto">
-              ConstructCo has been a leader in the construction industry for
-              over 20 years. We specialize in residential, commercial, and
-              industrial projects, delivering high-quality workmanship and
-              exceptional customer service. Our team of experienced
-              professionals is dedicated to bringing your vision to life.
+              M&C General Construction has been a leader in the construction
+              industry in the NY/NJ area. We specialize in residential,
+              commercial, and industrial projects, delivering high-quality
+              workmanship and exceptional customer service. Our team of
+              experienced professionals is dedicated to bringing your vision to
+              life.
             </p>
             <p className="text-lg max-w-3xl mx-auto">
               Our commitment to safety, innovation, and sustainability sets us
@@ -86,58 +87,60 @@ export default function Home() {
         {/* Services Section */}
         <section id="services" className="py-16 bg-gray-100 dark:bg-gray-900">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12 text-blue-600 dark:text-blue-400">
+            <h2 className="text-3xl font-bold text-center mb-12 text-black dark:text-gray-300">
               Our Services
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {/* Service 1 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="/con_2.jpg"
-                  alt="Residential Construction"
+                  src="/bath.jpg"
+                  alt="Bathroom"
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-blue-500 dark:text-blue-300">
-                  Residential Construction
+                <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-400">
+                  Bathrooms
                 </h3>
                 <p className="text-sm">
-                  Building custom homes and renovations with attention to detail
-                  and quality craftsmanship.
+                  Complete bathroom renovations and remodeling with modern
+                  fixtures, custom tiles, and quality craftsmanship for your
+                  perfect sanctuary.
                 </p>
               </div>
               {/* Service 2 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="/con_3.jpg"
-                  alt="Commercial Projects"
+                  src="/kitchen.jpg"
+                  alt="Kitchen"
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-blue-500 dark:text-blue-300">
-                  Commercial Projects
+                <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-400">
+                  Kitchens
                 </h3>
                 <p className="text-sm">
-                  Developing commercial spaces, office buildings, and retail
-                  outlets tailored to your business needs.
+                  Custom kitchen design and renovation with premium cabinets,
+                  countertops, and appliances to create the heart of your home.
                 </p>
               </div>
               {/* Service 3 */}
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center">
                 <Image
-                  src="/con_4.jpg"
-                  alt="Renovations & Remodeling"
+                  src="/living_room.jpg"
+                  alt="Living Room"
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
-                <h3 className="text-xl font-semibold mb-2 text-blue-500 dark:text-blue-300">
-                  Renovations & Remodeling
+                <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-400">
+                  And more...
                 </h3>
                 <p className="text-sm">
-                  Transforming existing structures with modern designs and
+                  Living rooms, bedrooms, basements, and complete home
+                  renovations. We transform any space with modern designs and
                   functional improvements.
                 </p>
               </div>
@@ -148,30 +151,22 @@ export default function Home() {
         {/* Contact Section */}
         <section id="contact" className="py-16 bg-white dark:bg-gray-800">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12 text-blue-600 dark:text-blue-400">
+            <h2 className="text-3xl font-bold text-center mb-12 text-black dark:text-gray-300">
               Contact Us
             </h2>
             <div className="max-w-2xl mx-auto bg-gray-50 dark:bg-gray-700 p-8 rounded-lg shadow-lg">
               <p className="text-lg mb-4">
-                <strong>Address:</strong> 123 Construction Ave, Building City,
-                ST 12345
-              </p>
-              <p className="text-lg mb-4">
-                <strong>Phone:</strong> (123) 456-7890
+                <strong>Phone:</strong> (347) 977-9078
               </p>
               <p className="text-lg mb-4">
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:info@constructco.com"
-                  className="text-blue-500 hover:underline"
+                  href="mailto:enrique_1926@live.com"
+                  className="text-gray-800 hover:underline dark:text-gray-400"
                 >
-                  info@constructco.com
+                  enrique_1926@live.com
                 </a>
               </p>
-              <p className="text-lg">
-                We are available Monday - Friday, 9 AM - 5 PM.
-              </p>
-              {/* You can add a contact form here later */}
             </div>
           </div>
         </section>
@@ -181,9 +176,9 @@ export default function Home() {
       <footer className="bg-gray-800 dark:bg-black text-gray-300 dark:text-gray-400 py-8 text-center">
         <div className="container mx-auto px-6">
           <p>
-            &copy; {new Date().getFullYear()} ConstructCo. All rights reserved.
+            &copy; {new Date().getFullYear()} M&C General Construction. All
+            rights reserved.
           </p>
-          <p className="text-sm">Built with Next.js and Tailwind CSS</p>
         </div>
       </footer>
     </div>
